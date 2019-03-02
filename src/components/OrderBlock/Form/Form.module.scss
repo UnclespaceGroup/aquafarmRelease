@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  height: 12rem;
+  height: 14rem;
 }
 
 .input {
@@ -27,7 +27,7 @@
 
 .invalid {
   composes: input;
-  box-shadow: 0 0 1px red;
+  box-shadow: 0 0 5px red;
 }
 
 .floatPlaceholder {
@@ -69,7 +69,7 @@
 }
 
 .formFeedback {
-  bottom: -3rem;
+  bottom: 3rem;
   position: absolute;
   font-size: 1.8rem;
   line-height: 1.33;

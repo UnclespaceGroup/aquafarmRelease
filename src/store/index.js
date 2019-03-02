@@ -4,10 +4,11 @@ import thunk from 'redux-thunk'
 import { currentForm } from 'reducer'
 
 const reducers = {
-  form: formReducer
+  form: formReducer,
+  currentForm
 }
 
-const reducer = combineReducers(reducers, currentForm)
+const reducer = combineReducers(reducers)
 
 const store = createStore(reducer, applyMiddleware(thunk))
 

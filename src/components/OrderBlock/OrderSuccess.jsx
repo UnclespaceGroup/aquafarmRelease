@@ -15,7 +15,7 @@ class OrderSuccess extends Component {
           </div>
         </div>
         <div>
-          <button className={s.button}>На главную</button>
+          <button className={s.button} onClick={this.props.toStart}>На главную</button>
           <div className={s.bottom}>С вопросами звоните на горячую линию <a href={'tel:88005553535'}> 8 800 555 35
             35</a></div>
         </div>

@@ -18,7 +18,7 @@ const FieldInput = ({ input, label, type, placeholder, options, mask, meta: { to
       <input {...input} type={type} className={classNames(s.input, { [s.valid]: valid }, { [s.invalid]: invalid })} />
       <div className={(input.value.trim() !== '') ? s.floatPlaceholder_active : s.floatPlaceholder}>{placeholder}</div>
       {
-        input.value.trim() !== '' && <div className={s.clearButton} onClick={() => { input.onChange('') }} >X</div>
+        input.value.trim() !== '' && <div className={s.clearButton} onClick={() => { input.onChange('') }} >Х</div>
       }
       {touched &&
       ((error && <div className={s.formFeedback}>{error}</div>) ||
