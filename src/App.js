@@ -3,7 +3,7 @@ import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import { Route, Switch } from 'react-router'
 import Main from 'pages/Main/Main'
-import store from './store'
+import store from './store/index'
 
 class App extends Component {
   render() {

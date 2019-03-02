@@ -1,9 +1,11 @@
 import React from 'react'
 import s from './Layout.module.scss'
 
-const Layout = ({children}) => {
+const Layout = ({children, bg}) => {
   return (
-    <div className={s.container}>{children}</div>
+    <div style={{backgroundColor: bg}}>
+      <div className={s.container}>{children}</div>
+    </div>
   )
 }
 export default Layout

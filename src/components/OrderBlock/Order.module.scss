@@ -1,0 +1,57 @@
+.container {
+  min-height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10rem 0;
+  background-color: #DFDFDF;
+}
+
+.title {
+  font-size: 6.4rem;
+  line-height: 8rem;
+  margin-bottom: 3rem;
+}
+
+.text {
+  line-height: 3.9rem;
+  font-size: 2.4rem;
+}
+
+.price {
+  font-size: 6.4rem;
+  float: right;
+  color: #2A27CB;
+}
+
+.button {
+  background: #2A27CB;
+  font-size: 3rem;
+  color: #FDFDFD;
+  cursor: pointer;
+  width: 100%;
+  padding: 2rem 8rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+
+  &:hover {
+    transition: all 500ms ease-in;
+    background-color: blue;
+  }
+}
+
+.bottom {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  .col {
+    width: 47%;
+  }
+}
