@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="136d2406-f143-49ce-a310-e8c09ed73029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +32,7 @@
           <entry key="gitignore" value="3" />
           <entry key="js" value="27" />
           <entry key="json" value="10" />
-          <entry key="jsx" value="17" />
+          <entry key="jsx" value="18" />
           <entry key="png" value="1" />
           <entry key="scss" value="17" />
           <entry key="ts" value="1" />
@@ -43,7 +45,7 @@
           <entry key="CSS" value="2" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="10" />
-          <entry key="JSX Harmony" value="17" />
+          <entry key="JSX Harmony" value="18" />
           <entry key="JavaScript" value="27" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="17" />
@@ -59,7 +61,7 @@
           <entry key="gitignore" value="27" />
           <entry key="js" value="1162" />
           <entry key="json" value="75" />
-          <entry key="jsx" value="4050" />
+          <entry key="jsx" value="4063" />
           <entry key="scss" value="1586" />
           <entry key="txt" value="45" />
           <entry key="yml" value="16" />
@@ -70,7 +72,7 @@
           <entry key=".env file" value="9" />
           <entry key="CSS" value="11" />
           <entry key="JSON" value="75" />
-          <entry key="JSX Harmony" value="4050" />
+          <entry key="JSX Harmony" value="4063" />
           <entry key="JavaScript" value="1162" />
           <entry key="PLAIN_TEXT" value="79" />
           <entry key="SCSS" value="1586" />
@@ -118,19 +120,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-responsive-modal/types/index.d.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+            <state relative-caret-position="264">
+              <caret line="54" selection-start-line="54" selection-end-line="58" selection-end-column="8" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -226,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/components/TextWithButton/TextWithButtonItem.jsx" />
         <option value="$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.module.scss" />
         <option value="$PROJECT_DIR$/src/components/TextWithButtonAndImage/package.json" />
-        <option value="$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.jsx" />
         <option value="$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Form/package.json" />
         <option value="$PROJECT_DIR$/src/components/OrderForm/OrderForm.jsx" />
@@ -256,6 +260,7 @@
         <option value="$PROJECT_DIR$/src/pages/Main/Main.jsx" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.jsx" />
       </list>
     </option>
   </component>
@@ -378,6 +383,13 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="TextWithButton" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aquafarm2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquafarm2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TextWithButtonAndImage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -454,7 +466,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551511020962</updated>
       <workItem from="1551511024893" duration="2863000" />
-      <workItem from="1551513992003" duration="24382000" />
+      <workItem from="1551513992003" duration="24805000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1551514890946</created>
@@ -498,11 +510,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551557306959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix">
+      <created>1551557830782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551557830782</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix">
+      <created>1551558000984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551558000984</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27245000" />
+    <option name="totallyTimeSpent" value="27668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-232" y="-1088" width="1936" height="1056" extended-state="6" />
@@ -685,16 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/OrderBlock/Form/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -866,13 +882,6 @@
     <entry file="file://$PROJECT_DIR$/src/pages/Main/Modul.module.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Modal/Modal.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -914,10 +923,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TextWithButton/TextWithButton.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        <state relative-caret-position="374">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TextWithButtonAndImage/TextWithButtonAndImage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="54" selection-start-line="54" selection-end-line="58" selection-end-column="8" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

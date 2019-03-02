@@ -52,11 +52,11 @@ class TextWithButtonAndImage extends Component {
         active: true
       })
     }
-    else {
-      this.setState({
-        active: false
-      })
-    }
+    // else {
+    //   this.setState({
+    //     active: false
+    //   })
+    // }
   }
   static defaultProps = {
     id: 'defaultId'
