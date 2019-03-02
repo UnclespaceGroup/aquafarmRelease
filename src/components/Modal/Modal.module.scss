@@ -1,0 +1,35 @@
+.container {
+  padding: 5rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.text {
+  font-size: 2.8rem;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background: #2A27CB;
+  font-size: 3rem;
+  color: #FDFDFD;
+  cursor: pointer;
+  padding: 2rem 8rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+
+  &:hover {
+    transition: all 500ms ease-in;
+    background-color: blue;
+  }
+}
