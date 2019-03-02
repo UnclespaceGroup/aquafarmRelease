@@ -40,7 +40,7 @@ class TextWithButton extends Component {
   handleScroll = () => {
     let slide = document.querySelector('#' + this.props.id)
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
-    const _offsetTop = slide.offsetTop - slide.offsetHeight
+    const _offsetTop = slide.offsetTop - slide.offsetHeight - 200
     if (scrollTop > _offsetTop) {
       this.setState({
         active: true
