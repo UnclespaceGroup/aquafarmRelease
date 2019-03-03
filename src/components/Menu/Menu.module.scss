@@ -1,0 +1,17 @@
+.container {
+  position: fixed;
+  top: 2rem;
+  left: 5rem;
+  z-index: 15;
+
+  .title {
+    font-size: 4rem;
+    color: rgba(247, 129, 19, 0.74);
+  }
+
+  .text {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 1rem black;
+  }
+}

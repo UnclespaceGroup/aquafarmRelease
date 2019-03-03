@@ -7,7 +7,7 @@
   color: rgba(0, 0, 0, 0.88);
   margin-bottom: 3rem;
 
-  p {
+  & > * {
     margin-bottom: 10rem;
     opacity: 0;
     transition: margin-bottom 500ms ease-in, opacity 500ms ease-in;
@@ -15,7 +15,7 @@
 
   &_active {
     composes: wrapper;
-    p {
+    & > * {
       opacity: 1;
       margin-bottom: 5rem;
     }
@@ -44,6 +44,12 @@
   height: 74rem;
   background: no-repeat center;
   background-size: cover;
+
+  &_big {
+    composes: image;
+    width: 70rem;
+    background-size: contain;
+  }
 }
 
 .button button {

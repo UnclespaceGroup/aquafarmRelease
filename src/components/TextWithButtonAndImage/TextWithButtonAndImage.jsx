@@ -20,7 +20,8 @@ class TextWithButtonAndImage extends Component {
         children,
         button,
         image,
-        id
+        id,
+        bigImage
       },
       state: {
         active
@@ -36,7 +37,7 @@ class TextWithButtonAndImage extends Component {
             {button && <div className={s.button}>{button}</div>}
           </div>
           <div className={s.col}>
-            <div className={s.image} style={{backgroundImage: `url(${image})`}} />
+            <div className={bigImage ? s.image_big : s.image} style={{backgroundImage: `url(${image})`}} />
           </div>
         </div>
       </div>
@@ -46,7 +47,7 @@ class TextWithButtonAndImage extends Component {
   handleScroll = () => {
     let slide = document.querySelector('#' + this.props.id)
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
-    const _offsetTop = slide.offsetTop - slide.offsetHeight - 200
+    const _offsetTop = slide.offsetTop - slide.offsetHeight + 200
     if (scrollTop > _offsetTop) {
       this.setState({
         active: true

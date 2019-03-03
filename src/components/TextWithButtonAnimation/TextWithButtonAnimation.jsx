@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import s from './TextWithButton.module.scss'
+import s from './TextWithButtonAnimation.module.scss'
 import _ from 'lodash'
 
-class TextWithButton extends Component {
+class TextWithButtonAnimation extends Component {
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll)
   }
@@ -56,4 +56,4 @@ class TextWithButton extends Component {
     id: 'defaultId'
   }
 }
-export default TextWithButton
+export default TextWithButtonAnimation

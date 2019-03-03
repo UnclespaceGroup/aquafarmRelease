@@ -8,7 +8,8 @@ class OrderForm extends Component {
   render () {
     const {
       props: {
-        handleSubmit
+        handleSubmit,
+        sending
       }
     } = this
     return (
@@ -40,7 +41,7 @@ class OrderForm extends Component {
             </div>
           </div>
           <div>
-            <button className={s.button} type={'submit'}>Заказать</button>
+            <button className={s.button} type={'submit'}>{sending ? 'Отправка...' : 'Заказать'}</button>
             <div className={s.bottom}>Ваши данные не будут переданы третьим лицам или использованы в спам рассылках.</div>
           </div>
         </div>
