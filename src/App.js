@@ -6,17 +6,19 @@ import Main from 'pages/Main/Main'
 import store from './store/index'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <Provider store={store}>
-        <BrowserRouter>
-          <Switch>
-            <Route exact to={'/'} component={Main} />
-          </Switch>
-        </BrowserRouter>
-      </Provider>
+      <div>
+        <Provider store={store}>
+          <BrowserRouter>
+            <Switch>
+              <Route exact to={'/'} component={Main} />
+            </Switch>
+          </BrowserRouter>
+        </Provider>
+      </div>
     )
   }
 }
 
-export default App;
+export default App

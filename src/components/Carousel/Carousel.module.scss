@@ -1,0 +1,24 @@
+.image {
+  width: 100%;
+  height: 100rem;
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.prev {
+  height: 10rem;
+  width: 10rem;
+  border: none;
+  margin: 2rem;
+  border-radius: 50%;
+  background-color: #2A27CB;
+  font-size: 5rem;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.next {
+  composes: prev;
+
+}

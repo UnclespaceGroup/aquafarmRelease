@@ -1,6 +1,16 @@
 import React, { Component } from 'react'
-import { Header, BlockWithFish, TextWithButton, Layout, TextWithButtonAndImage, OrderBlock, Modal } from 'exportComponents'
+import {
+  Header,
+  BlockWithFish,
+  TextWithButton,
+  Layout,
+  TextWithButtonAndImage,
+  OrderBlock,
+  Modal,
+  Carousel
+} from 'exportComponents'
 import im6 from 'static/images/006.jpg'
+import 'index.scss'
 import { about, complect } from './data'
 
 class Main extends Component {
@@ -25,6 +35,8 @@ class Main extends Component {
             <p>В комплект входит все необходимое. <br />Вам остается добавить только рыбку</p>
           </TextWithButtonAndImage>
         </Layout>
+        <Carousel />
+
         <Layout bg={'#DFDFDF'}>
           <OrderBlock />
         </Layout>

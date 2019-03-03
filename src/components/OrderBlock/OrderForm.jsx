@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import { Field, reduxForm } from 'redux-form'
 import FieldInput from './Form'
 import s from './Order.module.scss'
-import { email, number, phoneNumber, required } from 'utils/Form/validate'
-import { normalizePhone } from '../../utils/Form/normalizePhone'
+import { email, phoneNumber, required } from 'utils/Form/validate'
 
 class OrderForm extends Component {
   render () {

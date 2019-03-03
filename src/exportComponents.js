@@ -5,3 +5,4 @@ export { default as TextWithButtonAndImage } from 'components/TextWithButtonAndI
 export { default as Layout } from 'components/Layout'
 export { default as OrderBlock } from 'components/OrderBlock'
 export { default as Modal } from 'components/Modal'
+export { default as Carousel } from 'components/Carousel'
