@@ -1,0 +1,39 @@
+.container {
+  padding: 10rem 0;
+}
+
+.wrapper {
+  font-size: 3.6rem;
+  color: rgba(0, 0, 0, 0.88);
+
+  & > * {
+    margin-bottom: 10rem;
+    opacity: 0;
+    transition: margin-bottom 500ms ease-in, opacity 500ms ease-in;
+  }
+
+  &_active {
+    composes: wrapper;
+    & > * {
+      opacity: 1;
+      margin-bottom: 5rem;
+    }
+  }
+}
+
+.button button {
+  background: #2A27CB;
+  font-size: 3rem;
+  color: #FDFDFD;
+  cursor: pointer;
+  padding: 2rem 8rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+
+  &:hover {
+    transition: all 500ms ease-in;
+    background-color: blue;
+  }
+}

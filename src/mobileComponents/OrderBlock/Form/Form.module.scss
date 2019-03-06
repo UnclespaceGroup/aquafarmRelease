@@ -1,0 +1,77 @@
+.container {
+  position: relative;
+  height: 14rem;
+}
+
+.input {
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: -0.02rem;
+  color: #505050;
+  background-color: #fff;
+  padding: 1.3rem 10% 1.3rem 5%;
+  width: 85%;
+  border: none;
+  border-radius: 20rem;
+  outline: none;
+
+  &:focus {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.valid {
+  composes: input;
+}
+
+.invalid {
+  composes: input;
+  box-shadow: 0 0 5px red;
+}
+
+.floatPlaceholder {
+  position: absolute;
+  top: 1.5rem;
+  left: 3rem;
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: -0.2rem;
+  color: #505050;
+  pointer-events: none;
+
+  &_active {
+    composes: floatPlaceholder;
+    color: #333;
+    top: -2rem;
+    transition: all 0.2s;
+    transform-origin: left;
+    transform: translate(0, -2rem) scale(0.7);
+  }
+}
+
+.clearButton {
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dimgray;
+  position: absolute;
+  background-size: contain;
+  right: 2.8rem;
+  top: 2.5rem;
+  cursor: pointer;
+}
+
+.formFeedback {
+  bottom: 3rem;
+  position: absolute;
+  font-size: 1.8rem;
+  line-height: 1.33;
+  color: #e90505;
+}

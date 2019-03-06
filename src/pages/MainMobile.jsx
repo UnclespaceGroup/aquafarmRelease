@@ -8,16 +8,18 @@ import {
   OrderBlock,
   Modal,
   Carousel, Footer, Advantages, Delivery, Menu
-} from 'exportComponents'
+} from 'exportMobileComponents'
 import im6 from 'static/images/006.jpg'
-import 'index.scss'
 import { about, complect } from './data'
 import ad1 from 'static/images/money.png'
 import ad2 from 'static/images/guarantee.png'
 import ad3 from 'static/images/free.png'
 import map from 'static/images/prem-dostavka.png'
 
-class Main extends Component {
+class MainMobile extends Component {
+  componentDidUpdate () {
+  }
+
   render () {
     return (
       <div>
@@ -28,18 +30,23 @@ class Main extends Component {
           <TextWithButton
             button={<button onClick={() => {this.modalAbout.onOpenModal()}}>Подробнее об акваферме</button>}>
             <p>Акваферма – уникальный синтез аквариума и площадки для разведения растений.</p>
-            <p>Акваферма представляет собой замкнутую экосистему, поддерживающую баланс между растениями и рыбкой. </p>
+            <p>Является одним из самых популярных товаров социальных сетей 2019 года</p>
           </TextWithButton>
           <TextWithButton id={'tt'}>
-            <p>Акваферма – уникальный синтез аквариума и площадки для разведения растений.</p>
-            <p>Акваферма представляет собой замкнутую экосистему, поддерживающую баланс между растениями и рыбкой. </p>
+          <p>Акваферма представляет собой замкнутую экосистему, поддерживающую баланс между растениями и рыбкой.</p>
+          <p>Растения фильтруют воду, питаясь выделениями рыбки, рыбка радуется растениям</p>
+        </TextWithButton>
+          <TextWithButton id={'ttыыы'}>
+            <p>Поэтому Вам не доставит забот следить за аквафермой.</p>
+            <p>Покормите вовремя рыбку, и все готово</p>
           </TextWithButton>
           <TextWithButtonAndImage {...{
             button: <button onClick={() => {this.modalComplect.onOpenModal()}}>Посмотреть комплект</button>,
             image: im6,
             id: 'sssss'
           }} >
-            <p>В комплект входит все необходимое. <br />Вам остается добавить только рыбку</p>
+            <p>В комплект входит все необходимое. </p>
+            <p>Вам остается добавить только рыбку</p>
           </TextWithButtonAndImage>
 
         </Layout>
@@ -104,4 +111,4 @@ class Main extends Component {
   }
 }
 
-export default Main
+export default MainMobile

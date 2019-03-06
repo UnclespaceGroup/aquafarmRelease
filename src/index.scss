@@ -20,6 +20,10 @@ html {
     font-size: calc(100vw / 1600 * 10);
   }
 
+  @media all and (max-width: 767px) {
+    font-size: calc( 100vw / 520 * 10 );
+  }
+
   //@media all and (max-width: 767px) {
   //    font-size: calc( 100vw / 320 * 10 );
   //}
