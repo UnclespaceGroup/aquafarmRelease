@@ -1,9 +1,27 @@
 .container {
   min-height: 50rem;
-  background-color: #333333;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
   width: 100%;
 }
 
-.phone {
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
 
+.phone {
+  font-size: 3rem;
+  color: dimgray;
+  text-decoration: none;
+}
+
+.logo {
+  width: 20rem;
+  height: 20rem;
+  background: no-repeat center;
+  background-size: contain;
 }
